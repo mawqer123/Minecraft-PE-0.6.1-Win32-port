@@ -914,7 +914,7 @@ void Minecraft::tickInput() {
 				*/
 			}
 
-			if (!screen && key == Keyboard::KEY_O || key == 250) {
+			if (!screen && (key == Keyboard::KEY_O || key == 250)) {
 				releaseMouse();
 			}
 
